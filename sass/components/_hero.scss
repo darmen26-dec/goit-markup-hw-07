@@ -1,6 +1,6 @@
 .hero {
   height: 600px;
-  background-color: #2f303a;
+  background-color: var(--background-footer);
   padding: 200px 452px 280px 452px;
   text-align: center;
   text-transform: uppercase;
@@ -10,7 +10,7 @@
     ),
     url(../images/hero/hero-background-image.jpg);
   background-size: cover;
-  border: 1px solid #000000;
+  border: 1px solid var(--color-text-logo);
 
   &__title {
     font-weight: 900;

@@ -1,17 +1,17 @@
 .team {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  margin-top: 0;
-  padding-left: 0;
+  background-color: var(--background-secondary);
 
-  &__background {
-    background-color: #f5f4fa;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 0;
+    padding-left: 0;
   }
 }
 
 .team-card {
-  background: #ffffff;
+  background: var(--background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -58,7 +58,7 @@
     transition-timing-function: var(--default-timing-function);
   }
   &__icon {
-    fill: #afb1b8;
+    fill: var(--fill-icon);
   }
   &__link:hover &__icon,
   &__link:focus &__icon {

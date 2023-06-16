@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-footer);
   padding: 60px 0;
 }
 
@@ -7,7 +7,7 @@
   display: flex;
 
   &__text {
-    font-style: normal; /* usuwa kursywę */
+    font-style: normal;
     font-size: 1.4rem;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -19,13 +19,13 @@
   }
 
   &__contact {
-    font-style: normal; /* usuwa kursywę */
+    font-style: normal;
     font-size: 1.4rem;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    text-decoration: none; /* usuwa podkreślenie */
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    display: block; /* wyświetla mail i numer jedno pod drugim */
+    display: block;
     padding-bottom: 9px;
   }
 

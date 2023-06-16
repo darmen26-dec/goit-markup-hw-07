@@ -95,7 +95,7 @@
   margin-left: 54px;
 
   &__input {
-    opacity: 0; /* ukrycie domyślnej ikonki */
+    opacity: 0;
     position: absolute;
   }
 
@@ -137,7 +137,7 @@
   width: 200px;
   height: 50px;
   color: var(--color-text-secondary);
-  background: #2196f3;
+  background: var(--selected-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;

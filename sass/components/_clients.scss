@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #afb1b8;
+    border: 1px solid var(--fill-icon);
     border-radius: 4px;
   }
   &__item:hover,
@@ -20,7 +20,7 @@
     transition-timing-function: var(--default-timing-function);
   }
   &__logo {
-    fill: #afb1b8;
+    fill: var(--fill-icon);
   }
   &__item:hover &__logo,
   &__item:focus &__logo {
