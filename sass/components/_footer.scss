@@ -1,0 +1,78 @@
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+
+.footer-address {
+  display: flex;
+
+  &__text {
+    font-style: normal; /* usuwa kursywę */
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secondary);
+    margin-top: 20px;
+    margin-bottom: 9px;
+    margin-right: 70px;
+    width: 246px;
+  }
+
+  &__contact {
+    font-style: normal; /* usuwa kursywę */
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none; /* usuwa podkreślenie */
+    color: rgba(255, 255, 255, 0.6);
+    display: block; /* wyświetla mail i numer jedno pod drugim */
+    padding-bottom: 9px;
+  }
+
+  &__contact:hover,
+  &__contact:focus {
+    color: var(--selected-text);
+    transition-duration: var(--default-time);
+    transition-timing-function: var(--default-timing-function);
+  }
+}
+
+.footer-socialmedia {
+  padding-block: 0;
+
+  &__text {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    margin-block: 12px 20px;
+    align-items: baseline;
+  }
+}
+
+.footer-socialmedia-items {
+  display: flex;
+  gap: 10px;
+
+  &__link {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-color: #ffffff1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link:hover,
+  &__link:focus {
+    background-color: var(--selected-text);
+    cursor: pointer;
+    transition-duration: var(--default-time);
+    transition-timing-function: var(--default-timing-function);
+  }
+  &__icon {
+    fill: var(--color-text-secondary);
+  }
+}

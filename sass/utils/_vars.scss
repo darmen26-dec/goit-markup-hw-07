@@ -1,0 +1,12 @@
+$fontFamily: "Roboto, sans-serif";
+$background: "#ffffff";
+$mainColor: "#212121";
+:root {
+  --background: #ffffff;
+  --color-text: #212121;
+  --color-text-secondary: #ffffff;
+  --color-text-info: #757575;
+  --selected-text: #2196f3;
+  --default-time: 250ms;
+  --default-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
