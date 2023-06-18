@@ -2,7 +2,7 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: $fontFamilyMain;
   background: var(--background);
   color: var(--color-text);
   width: 1600px;

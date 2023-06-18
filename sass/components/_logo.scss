@@ -1,5 +1,5 @@
 .logo {
-  font-family: "Raleway";
+  font-family: $fontFamilyLogo;
   font-weight: 700;
   font-size: 2.6rem;
   line-height: 1.2;
@@ -17,6 +17,6 @@
   }
 
   &--highlight {
-    color: var(--selected-text);
+    color: var(--color-accent-blue);
   }
 }

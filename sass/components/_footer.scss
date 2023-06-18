@@ -31,7 +31,7 @@
 
   &__contact:hover,
   &__contact:focus {
-    color: var(--selected-text);
+    color: var(--color-accent-blue);
     transition-duration: var(--default-time);
     transition-timing-function: var(--default-timing-function);
   }
@@ -67,7 +67,7 @@
   }
   &__link:hover,
   &__link:focus {
-    background-color: var(--selected-text);
+    background-color: var(--color-accent-blue);
     cursor: pointer;
     transition-duration: var(--default-time);
     transition-timing-function: var(--default-timing-function);

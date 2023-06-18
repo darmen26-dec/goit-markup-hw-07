@@ -15,7 +15,7 @@
   }
   &__mail-phone:hover,
   &__mail-phone:focus {
-    color: var(--selected-text);
+    color: var(--color-accent-blue);
     transition-duration: var(--default-time);
     transition-timing-function: var(--default-timing-function);
   }
