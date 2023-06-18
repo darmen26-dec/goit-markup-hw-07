@@ -1,11 +1,10 @@
 @use "./utils/vars" as *;
 @import "./components/global";
-@import "./components/header";
+@import "./components/page-header";
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/contact";
 @import "./components/hero";
-@import "./components/hero-button";
 @import "./components/modal-window-backdrop";
 @import "./components/modal-window-form";
 @import "./components/section";
@@ -13,7 +12,6 @@
 @import "./components/specialty";
 @import "./components/team";
 @import "./components/clients";
-@import "./components/footer";
-@import "./components/newsletter";
+@import "./components/page-footer";
 @import "./components/portfolio-buttons";
 @import "./components/portfolio-projects";
